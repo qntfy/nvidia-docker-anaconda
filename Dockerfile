@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn5-devel
+FROM nvidia/cuda:8.0-cudnn5-runtime
 
 # Add some dependencies
 RUN apt-get clean && apt-get update -y -qq
